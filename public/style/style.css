@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%
+}
+body{
+    background-color: #1f2632;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+#card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#cardelem{
+    background-color: #323a49;
+    width: 40vw;
+    min-width: 350px;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+#cardelem h4{
+    color: rgb(68, 231, 193);
+    font-size: 20px;
+}
+#cardelem h2{
+    padding: 0 20px;
+    font-size: 25px;
+}
+#cardelem button{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(68, 231, 193);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
