@@ -2,7 +2,7 @@ import express from "express";
 import bodyParser from "body-parser";
 import axios from "axios";
 const app= express();
-const port= process.env.PORT || 3002;
+const port=  3002;
 
 app.use(express.static("public"));
 
